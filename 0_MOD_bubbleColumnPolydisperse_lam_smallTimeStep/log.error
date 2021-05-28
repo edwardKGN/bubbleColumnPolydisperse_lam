@@ -1,0 +1,191 @@
+Courant Number mean: 0.104324 max: 0.504046
+Max Ur Courant Number = 0.151828
+deltaT = 0.00372239
+Time = 2.785283
+
+PIMPLE: Iteration 1
+MULES: Solving for alpha.air
+MULES: Solving for alpha.air
+alpha.air volume fraction = 0.293322  Min(alpha1) = 2.25094e-05  Max(alpha1) = 1
+Constructing momentum equations
+smoothSolver:  Solving for e.air, Initial residual = 3.64454e-05, Final residual = 5.95054e-16, No Iterations 1
+smoothSolver:  Solving for e.water, Initial residual = 3.80364e-05, Final residual = 5.55934e-15, No Iterations 1
+GAMG:  Solving for p_rgh, Initial residual = 1.88758e-05, Final residual = 7.2542e-09, No Iterations 8
+PIMPLE: Iteration 2
+MULES: Solving for alpha.air
+MULES: Solving for alpha.air
+alpha.air volume fraction = 0.293322  Min(alpha1) = 2.41058e-05  Max(alpha1) = 1
+Constructing momentum equations
+smoothSolver:  Solving for e.air, Initial residual = 3.54719e-05, Final residual = 5.97643e-16, No Iterations 1
+smoothSolver:  Solving for e.water, Initial residual = 3.68837e-05, Final residual = 5.42748e-15, No Iterations 1
+GAMG:  Solving for p_rgh, Initial residual = 6.40984e-06, Final residual = 5.31266e-09, No Iterations 6
+PIMPLE: Iteration 3
+MULES: Solving for alpha.air
+MULES: Solving for alpha.air
+alpha.air volume fraction = 0.293322  Min(alpha1) = 2.43935e-05  Max(alpha1) = 1
+populationBalance bubbles: Iteration 1
+DILUPBiCGStab:  Solving for f0.air.bubbles, Initial residual = 0.406977, Final residual = 7.23876e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f1.air.bubbles, Initial residual = 0.405398, Final residual = 7.01766e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f2.air.bubbles, Initial residual = 0.404734, Final residual = 7.11405e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f3.air.bubbles, Initial residual = 0.404622, Final residual = 7.12463e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f4.air.bubbles, Initial residual = 0.404548, Final residual = 7.03886e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f5.air.bubbles, Initial residual = 0.404051, Final residual = 7.09066e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f6.air.bubbles, Initial residual = 0.404193, Final residual = 7.01525e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f7.air.bubbles, Initial residual = 0.403873, Final residual = 7.01732e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f8.air.bubbles, Initial residual = 0.403498, Final residual = 7.00504e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f9.air.bubbles, Initial residual = 0.403087, Final residual = 7.00585e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f10.air.bubbles, Initial residual = 0.402616, Final residual = 7.03899e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f11.air.bubbles, Initial residual = 0.402069, Final residual = 7.13834e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f12.air.bubbles, Initial residual = 0.401429, Final residual = 7.42829e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f13.air.bubbles, Initial residual = 0.400884, Final residual = 8.09051e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f14.air.bubbles, Initial residual = 0.399195, Final residual = 1.02238e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f15.air.bubbles, Initial residual = 0.398267, Final residual = 1.20516e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f16.air.bubbles, Initial residual = 0.396443, Final residual = 1.2061e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f17.air.bubbles, Initial residual = 0.394923, Final residual = 1.07366e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f18.air.bubbles, Initial residual = 0.39255, Final residual = 1.01568e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f19.air.bubbles, Initial residual = 0.38938, Final residual = 1.00548e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f20.air.bubbles, Initial residual = 0.385299, Final residual = 1.0413e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f21.air.bubbles, Initial residual = 0.379721, Final residual = 1.22756e-10, No Iterations 1
+air Sauter mean diameter, min, max = 0.00110782 4.18487e-12 0.0029289
+air sizeGroups-sum volume fraction, min, max = 259131 0.999604 2.76679e+08
+bubbles sizeGroup phase fraction first, last = 373.175 8.98512e-06
+Constructing momentum equations
+smoothSolver:  Solving for e.air, Initial residual = 2.02697e-05, Final residual = 2.43831e-16, No Iterations 1
+smoothSolver:  Solving for e.water, Initial residual = 2.11432e-05, Final residual = 3.16992e-15, No Iterations 1
+GAMG:  Solving for p_rgh, Initial residual = 0.000456584, Final residual = 9.62675e-09, No Iterations 12
+ExecutionTime = 44.31 s
+
+
+fieldAverage fieldAverage1 write:
+    Calculating averages
+
+Courant Number mean: 0.104156 max: 0.503792
+Max Ur Courant Number = 0.152074
+deltaT = 0.00369437
+Time = 2.788977
+
+PIMPLE: Iteration 1
+MULES: Solving for alpha.air
+MULES: Solving for alpha.air
+alpha.air volume fraction = 0.293322  Min(alpha1) = 2.53792e-05  Max(alpha1) = 1
+Constructing momentum equations
+smoothSolver:  Solving for e.air, Initial residual = 2.07623e-05, Final residual = 3.33427e-16, No Iterations 1
+smoothSolver:  Solving for e.water, Initial residual = 2.16794e-05, Final residual = 6.26441e-15, No Iterations 1
+GAMG:  Solving for p_rgh, Initial residual = 2.0759e-05, Final residual = 5.30251e-09, No Iterations 13
+PIMPLE: Iteration 2
+MULES: Solving for alpha.air
+MULES: Solving for alpha.air
+alpha.air volume fraction = 0.293322  Min(alpha1) = 2.60452e-05  Max(alpha1) = 1
+Constructing momentum equations
+smoothSolver:  Solving for e.air, Initial residual = 2.07155e-05, Final residual = 1.89592e-16, No Iterations 1
+smoothSolver:  Solving for e.water, Initial residual = 2.15546e-05, Final residual = 2.72528e-15, No Iterations 1
+GAMG:  Solving for p_rgh, Initial residual = 7.28183e-06, Final residual = 7.1698e-09, No Iterations 9
+PIMPLE: Iteration 3
+MULES: Solving for alpha.air
+MULES: Solving for alpha.air
+alpha.air volume fraction = 0.293322  Min(alpha1) = 2.62837e-05  Max(alpha1) = 1
+populationBalance bubbles: Iteration 1
+DILUPBiCGStab:  Solving for f0.air.bubbles, Initial residual = 0.48697, Final residual = 3.93231e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f1.air.bubbles, Initial residual = 0.487931, Final residual = 3.90014e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f2.air.bubbles, Initial residual = 0.487969, Final residual = 3.90142e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f3.air.bubbles, Initial residual = 0.488596, Final residual = 3.90603e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f4.air.bubbles, Initial residual = 0.489208, Final residual = 3.88561e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f5.air.bubbles, Initial residual = 0.489724, Final residual = 3.88854e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f6.air.bubbles, Initial residual = 0.49072, Final residual = 3.88199e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f7.air.bubbles, Initial residual = 0.491498, Final residual = 3.87772e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f8.air.bubbles, Initial residual = 0.492428, Final residual = 3.87104e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f9.air.bubbles, Initial residual = 0.493467, Final residual = 3.86514e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f10.air.bubbles, Initial residual = 0.494632, Final residual = 3.86182e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f11.air.bubbles, Initial residual = 0.495949, Final residual = 3.86401e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f12.air.bubbles, Initial residual = 0.4975, Final residual = 3.88804e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f13.air.bubbles, Initial residual = 0.499415, Final residual = 3.93705e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f14.air.bubbles, Initial residual = 0.501041, Final residual = 4.10787e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f15.air.bubbles, Initial residual = 0.502091, Final residual = 4.25161e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f16.air.bubbles, Initial residual = 0.501084, Final residual = 4.24847e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f17.air.bubbles, Initial residual = 0.500553, Final residual = 4.13183e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f18.air.bubbles, Initial residual = 0.499638, Final residual = 4.07015e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f19.air.bubbles, Initial residual = 0.498594, Final residual = 4.0427e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f20.air.bubbles, Initial residual = 0.497099, Final residual = 4.04048e-10, No Iterations 1
+DILUPBiCGStab:  Solving for f21.air.bubbles, Initial residual = 0.493375, Final residual = 4.15593e-10, No Iterations 1
+air Sauter mean diameter, min, max = 0.00110282 1.29865e-11 0.0029289
+air sizeGroups-sum volume fraction, min, max = 102557 0.999608 8.89244e+07
+bubbles sizeGroup phase fraction first, last = 717.545 1.71186e-05
+Constructing momentum equations
+smoothSolver:  Solving for e.air, Initial residual = 5.47458e-05, Final residual = 2.06174e-15, No Iterations 1
+smoothSolver:  Solving for e.water, Initial residual = 5.7176e-05, Final residual = 4.92384e-15, No Iterations 1
+GAMG:  Solving for p_rgh, Initial residual = 6.5544e-05, Final residual = 9.37534e-09, No Iterations 13
+ExecutionTime = 44.47 s
+
+
+fieldAverage fieldAverage1 write:
+    Calculating averages
+
+Courant Number mean: 0.104196 max: 0.503491
+Max Ur Courant Number = 0.152223
+deltaT = 0.00366876
+Time = 2.792646
+
+PIMPLE: Iteration 1
+MULES: Solving for alpha.air
+MULES: Solving for alpha.air
+alpha.air volume fraction = 0.293323  Min(alpha1) = 2.67469e-05  Max(alpha1) = 1
+Constructing momentum equations
+smoothSolver:  Solving for e.air, Initial residual = 5.37199e-05, Final residual = 1.98378e-15, No Iterations 1
+smoothSolver:  Solving for e.water, Initial residual = 5.61786e-05, Final residual = 5.88156e-15, No Iterations 1
+GAMG:  Solving for p_rgh, Initial residual = 1.86691e-05, Final residual = 7.11185e-09, No Iterations 10
+PIMPLE: Iteration 2
+MULES: Solving for alpha.air
+MULES: Solving for alpha.air
+alpha.air volume fraction = 0.293322  Min(alpha1) = 2.70167e-05  Max(alpha1) = 1
+Constructing momentum equations
+smoothSolver:  Solving for e.air, Initial residual = 0.000110831, Final residual = 2.2029e-15, No Iterations 1
+smoothSolver:  Solving for e.water, Initial residual = 0.000115522, Final residual = 4.14853e-15, No Iterations 1
+GAMG:  Solving for p_rgh, Initial residual = 8.06029e-06, Final residual = 6.68742e-09, No Iterations 5
+PIMPLE: Iteration 3
+MULES: Solving for alpha.air
+MULES: Solving for alpha.air
+alpha.air volume fraction = 0.293323  Min(alpha1) = 2.71849e-05  Max(alpha1) = 1
+populationBalance bubbles: Iteration 1
+DILUPBiCGStab:  Solving for f0.air.bubbles, Initial residual = 0.342162, Final residual = 4.0553e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f1.air.bubbles, Initial residual = 0.342111, Final residual = 3.89067e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f2.air.bubbles, Initial residual = 0.34208, Final residual = 3.92476e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f3.air.bubbles, Initial residual = 0.342104, Final residual = 3.93172e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f4.air.bubbles, Initial residual = 0.342129, Final residual = 3.88914e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f5.air.bubbles, Initial residual = 0.342123, Final residual = 3.91265e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f6.air.bubbles, Initial residual = 0.342179, Final residual = 3.88468e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f7.air.bubbles, Initial residual = 0.342202, Final residual = 3.88514e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f8.air.bubbles, Initial residual = 0.342229, Final residual = 3.88113e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f9.air.bubbles, Initial residual = 0.342261, Final residual = 3.88371e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f10.air.bubbles, Initial residual = 0.3423, Final residual = 3.90114e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f11.air.bubbles, Initial residual = 0.342346, Final residual = 3.94712e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f12.air.bubbles, Initial residual = 0.342407, Final residual = 4.07178e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f13.air.bubbles, Initial residual = 0.342501, Final residual = 4.30045e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f14.air.bubbles, Initial residual = 0.34254, Final residual = 4.93148e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f15.air.bubbles, Initial residual = 0.342576, Final residual = 5.37118e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f16.air.bubbles, Initial residual = 0.342427, Final residual = 5.25973e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f17.air.bubbles, Initial residual = 0.34234, Final residual = 4.9016e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f18.air.bubbles, Initial residual = 0.342204, Final residual = 4.77107e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f19.air.bubbles, Initial residual = 0.342031, Final residual = 4.78299e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f20.air.bubbles, Initial residual = 0.34179, Final residual = 4.92684e-11, No Iterations 1
+DILUPBiCGStab:  Solving for f21.air.bubbles, Initial residual = 0.341341, Final residual = 5.60611e-11, No Iterations 1
+air Sauter mean diameter, min, max = 0.00109783 -4.40576e-07 0.0029289
+air sizeGroups-sum volume fraction, min, max = 203954 -2630.49 1.77849e+08
+bubbles sizeGroup phase fraction first, last = 1400.34 3.31468e-05
+Constructing momentum equations
+#0  Foam::error::printStack(Foam::Ostream&) at ??:?
+#1  Foam::sigFpe::sigHandler(int) at ??:?
+#2  ? in "/lib/x86_64-linux-gnu/libc.so.6"
+#3  ? in "/lib/x86_64-linux-gnu/libm.so.6"
+#4  pow in "/lib/x86_64-linux-gnu/libm.so.6"
+#5  Foam::pow(Foam::Field<double>&, Foam::UList<double> const&, double const&) at ??:?
+#6  Foam::tmp<Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh> > Foam::pow<Foam::fvPatchField, Foam::volMesh>(Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh> const&, Foam::dimensioned<double> const&) at ??:?
+#7  Foam::dragModels::SchillerNaumann::CdRe() const at ??:?
+#8  Foam::dragModel::Ki() const at ??:?
+#9  Foam::dragModel::K() const at ??:?
+#10  Foam::tmp<Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh> > Foam::BlendedInterfacialModel<Foam::dragModel>::evaluate<double, Foam::fvPatchField, Foam::volMesh>(Foam::tmp<Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh> > (Foam::dragModel::*)() const, Foam::word const&, Foam::dimensionSet const&, bool) const at ??:?
+#11  Foam::BlendedInterfacialModel<Foam::dragModel>::K() const at ??:?
+#12  Foam::MomentumTransferPhaseSystem<Foam::twoPhaseSystem>::momentumTransfer() at ??:?
+#13  ? in "/opt/openfoam6/platforms/linux64GccDPInt32Opt/bin/reactingTwoPhaseEulerFoam"
+#14  __libc_start_main in "/lib/x86_64-linux-gnu/libc.so.6"
+#15  ? in "/opt/openfoam6/platforms/linux64GccDPInt32Opt/bin/reactingTwoPhaseEulerFoam"
+Floating point exception (core dumped)
